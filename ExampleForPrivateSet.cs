@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LearningCSharp
 {
-    public class YoungProfessional
+    public partial class YoungProfessional
     {
         public YoungProfessional()
         {
@@ -19,7 +19,7 @@ namespace LearningCSharp
         }
         public int PersonalId { get; private set; }
         public int RNo { get; set; }
-        public string DateOfBirth { get; private set }
+        public string DateOfBirth { get; private set; }
 
         public string Name { get; set; }
         
